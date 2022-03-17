@@ -1,0 +1,142 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\eleon\AppData\Local\Temp\idea.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\eleon\AppData\Local\Temp\idea.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.5.8 (Amazon.com Inc. Java 11.0.14.1)
+[debug]       Load.loadUnit: plugins took 129.255ms
+[debug]       Load.loadUnit: defsScala took 0.3558ms
+[debug] [Loading] Scanning directory C:\Users\eleon\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\eleon\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 23.9694 ms
+[debug]           Load.resolveProject(global-plugins) took 63.7789ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\eleon\.sbt\1.0\plugins, plugins: List(<none>))) took 118.0429ms
+[debug] [Loading] Done in C:\Users\eleon\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 137.7069ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.4241ms
+[debug]     Load.loadUnit(file:/C:/Users/eleon/.sbt/1.0/plugins/, ...) took 280.9789ms
+[debug]   Load.apply: load took 496.4891ms
+[debug]   Load.apply: resolveProjects took 11.3983ms
+[debug]   Load.apply: finalTransforms took 89.3056ms
+[debug]   Load.apply: config.delegates took 12.7406ms
+[debug]   Load.apply: Def.make(settings)... took 577.145ms
+[debug]   Load.apply: structureIndex took 115.2387ms
+[debug]   Load.apply: mkStreams took 2.3101ms
+[info] loading global plugins from C:\Users\eleon\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 3585.7323ms
+[debug]           Load.loadUnit: plugins took 32.1092ms
+[debug]           Load.loadUnit: defsScala took 0.0027ms
+[debug] [Loading] Scanning directory C:\Users\eleon\lab01-PPS\lab03\project
+[debug]             Load.loadUnit: mkEval took 5.7794ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\eleon\lab01-PPS\lab03\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.2803 ms
+[info] loading settings for project lab03-build from idea.sbt ...
+[debug]               Load.resolveProject(lab03-build) took 4.7626ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id lab03-build, base: C:\Users\eleon\lab01-PPS\lab03\project, plugins: List(<none>))) took 7.6617ms
+[debug] [Loading] Done in C:\Users\eleon\lab01-PPS\lab03\project, returning: (lab03-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 156.1263ms
+[debug]           Load.loadUnit: cleanEvalClasses took 9.2568ms
+[debug]         Load.loadUnit(file:/C:/Users/eleon/lab01-PPS/lab03/project/, ...) took 198.59ms
+[debug]       Load.apply: load took 199.9951ms
+[debug]       Load.apply: resolveProjects took 0.1343ms
+[debug]       Load.apply: finalTransforms took 14.8626ms
+[debug]       Load.apply: config.delegates took 0.7933ms
+[debug]       Load.apply: Def.make(settings)... took 94.2656ms
+[debug]       Load.apply: structureIndex took 29.5015ms
+[debug]       Load.apply: mkStreams took 0.0034ms
+[info] loading project definition from C:\Users\eleon\lab01-PPS\lab03\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[debug]     Load.loadUnit: plugins took 4720.6405ms
+[debug]     Load.loadUnit: defsScala took 0.003ms
+[debug] [Loading] Scanning directory C:\Users\eleon\lab01-PPS\lab03
+[debug]       Load.loadUnit: mkEval took 0.3885ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 2.3695 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 47.9067ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: C:\Users\eleon\lab01-PPS\lab03, plugins: List(<none>))) took 52.7424ms
+[debug] [Loading] Done in C:\Users\eleon\lab01-PPS\lab03, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 2448.0125ms
+[debug]     Load.loadUnit: cleanEvalClasses took 5.175ms
+[debug]   Load.loadUnit(file:/C:/Users/eleon/lab01-PPS/lab03/, ...) took 7174.4292ms
+[debug] Load.apply: load took 7175.8942ms
+[debug] Load.apply: resolveProjects took 0.0824ms
+[debug] Load.apply: finalTransforms took 36.4945ms
+[debug] Load.apply: config.delegates took 0.301ms
+[debug] Load.apply: Def.make(settings)... took 89.1597ms
+[debug] Load.apply: structureIndex took 22.8664ms
+[debug] Load.apply: mkStreams took 0.0021ms
+[info] set current project to pps-code-lab-3 (in build file:/C:/Users/eleon/lab01-PPS/lab03/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 54222 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 54222, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to pps-code-lab-3 (in build file:/C:/Users/eleon/lab01-PPS/lab03/)
+[debug] > Exec(idea-shell, None, None)
